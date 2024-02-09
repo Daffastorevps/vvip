@@ -8,10 +8,10 @@ clear
 apt install jq curl -y >/dev/null 2>&1
 #read -rp "Sub Domain (Contoh: fv12): " -e sub
 sub=vvip-`</dev/urandom tr -dc 0-9 | head -c5`
-DOMAIN=vpn-prem.biz.id
-SUB_DOMAIN=${sub}.vpn-prem.biz.id
-CF_ID=padliapandi459@gmail.com
-CF_KEY=1a700ef4a22e642f0ea8d43420bb0b1237589
+DOMAIN=daffstore75.my.id
+SUB_DOMAIN=${sub}.daffstore75.my.id
+CF_ID=ssaliyah735@gmail.com
+CF_KEY=f307a4a6124af1b3f415fd73b9acd90d1cca7
 set -euo pipefail
 IP=$(curl -sS ipv4.icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
